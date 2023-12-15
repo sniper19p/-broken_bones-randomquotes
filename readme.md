@@ -1,31 +1,31 @@
 # Random Quotes API
 
-A simple Node.js module to retrieve random quotes from the Type Fit Quotes API, using Axios for HTTP requests.
+This is a simple Node.js module to retrieve random quotes from the Type Fit Quotes API. It utilizes the Axios library to make an HTTP GET request to the API and returns an array of quotes.
 
 ## Installation
 
-Install the module with npm:
+To use this module, first install it using npm:
 
-```npm install @broken_bones/randomquotes```
-
-## Usage
-
-Require the module and call the `getRandomQuotes` function:
-
+```sh
+npm i @broken_bones/randomquotes
 ```
+## Usage
+To use this module in your Node.js project, require it and call the getDailyQuestions function:
+```sh
 const quote = require("@broken_bones/randomquotes");
 
-quote.getRandomQuotes()
+quote.getrandomquotes()
   .then(quotes => {
     console.log(quotes);
   })
   .catch(error => {
     console.error(error);
   });
-  ```
 
+  ```
 This will log an array of quotes to the console.
 
-## License
 
-This project is licensed under the ISC License. See the LICENSE file for details.
+## License
+This project is licensed under the ISC License - see the LICENSE file for details.
+
