@@ -6,13 +6,14 @@ A simple Node.js module to retrieve random quotes from the Type Fit Quotes API, 
 
 Install the module with npm:
 
-```npm install @broken_bones/randomquotes``````
+```npm install @broken_bones/randomquotes```
 
 ## Usage
 
 Require the module and call the `getRandomQuotes` function:
 
-```const quote = require("@broken_bones/randomquotes");
+```
+const quote = require("@broken_bones/randomquotes");
 
 quote.getRandomQuotes()
   .then(quotes => {
